@@ -13,9 +13,10 @@ def main():
     print("this is the main function")
     args = parse_args()
     cwd = os.getcwd() 
+    dest = f'{cwd}'.join(DOCUPATH)
     print(args.source)
     print(cwd)
-    print(f'{os.getcwd()}'.join(DOCUPATH))
+    print(dest)
     pass
 
 if __name__ == "__main__":
