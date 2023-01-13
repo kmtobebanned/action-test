@@ -22,4 +22,4 @@ jobs:
       - name: Check Folder location
         run: |
           dir=$PWD
-          python3 main.py --source dir
+          python3 main.py --source $dir
