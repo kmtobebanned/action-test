@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      -name: Get PWD
+      - name: Check Folder location
         run: pwd
