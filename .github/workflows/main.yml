@@ -11,4 +11,6 @@ jobs:
     
     steps:
       - name: Check Folder location
-        run: pwd
+        run: |
+        dir=$PWD
+        python3 main.py --source dir
